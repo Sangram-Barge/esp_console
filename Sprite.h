@@ -4,6 +4,10 @@ class Sprite {
     bool isDead;
     const uint8_t* bit_map; 
 
+    Sprite(){
+      
+    }
+
     Sprite(int width, int height, int x, int y, const uint8_t* bit_map) {
       this->width = width;
       this->height = height;
